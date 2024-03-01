@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap");
 
 
 *{
@@ -10,7 +10,9 @@
 .clear{
     clear: both;
 }
-
+body{
+    background-color: #060053;
+}
 /* top-bar */
 
 header{
@@ -45,16 +47,23 @@ nav a:active{
 
 /* parte do conteudo */
 
-
+article{
+    color: #fff;
+}
 .caixaDeTexto{
     position: relative;
-    top:300px;
+    top:200px;
     left: 10%;
 }
 .caixaDeTexto h1{
     display: inline-block;
     font-size: 40px;
     border-bottom: 2px solid #000;
+}
+.fonte{
+    font-family: "Foldit", sans-serif;
+    font-weight: 700;
+    color: #000000;
 }
 #minha-foto{
     position: absolute;
@@ -74,17 +83,23 @@ nav a:active{
     background-color: #0000008c;
     border-radius: 50%;
 }
-#linha{
-    margin: 0px 7%;
+#bar{
+    
     margin-top: 400px;
+    width: 100%;
+    height: 60px;
+    background-color: #000000b4;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 4px solid #0000005b;
 }
-/* sobre */
 
-.caixaDeTexto2{
-    position: relative;
-    top:50px;
-    left: 10%;
-}
-.caixaDeTexto2 p{
-    text-indent: 50px;
+/*
+    Area de conhecimentos
+*/
+
+#meus-projetos{
+    background-color: #000000a6;
+    height: 600px;
 }
