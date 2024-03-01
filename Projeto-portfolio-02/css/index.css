@@ -41,7 +41,11 @@ nav a:active{
     font-size: 25px;
 }
 
+
+
 /* parte do conteudo */
+
+
 .caixaDeTexto{
     position: relative;
     top:300px;
@@ -49,7 +53,7 @@ nav a:active{
 }
 .caixaDeTexto h1{
     display: inline-block;
-    font-size: 60px;
+    font-size: 40px;
     border-bottom: 2px solid #000;
 }
 #minha-foto{
