@@ -1,0 +1,111 @@
+/* formatações gerais */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    
+}
+body{
+    background: black;
+    color: white;
+}
+
+/* barra de navegação */
+
+#barra-nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #111111;
+    border-bottom: 1px solid #1b1b1b;
+    
+}
+#barra-nav a:link, #barra-nav a:visited{
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#barra-nav a:hover{
+    background: white;
+    color: black;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+
+/* inicio do conteudo principal */
+
+
+#inicio{
+    text-align: center;
+    border-bottom: 1px solid #111111;
+    padding: 15px;
+}
+#inicio img{
+    border-radius: 50%;
+    border: 2px solid red;
+    margin-top: 50px;
+}
+#inicio p, h1{
+    text-align: left;
+    padding: 5px;
+}
+#inicio h1{
+    margin-top: 100px;
+}
+
+
+/* conteudo */
+
+
+#conteudo{
+    margin-top: 30px;
+    padding: 15px;
+}
+#conteudo h2, p{
+    text-align: left;
+    padding: 5px;
+}
+#conteudo h2{
+}
+
+/* rodape  */
+
+#rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+
+}
+#rodape img{
+    width: 30px;
+    height: 30px;
+}
+#rodape h3{
+    text-align: end;
+}
+#rodape2{
+    display: flex;
+    justify-content: center;
+    margin-top: 270px;
+
+}
+#rodape2 img{
+    width: 30px;
+    height: 30px;
+}
+#rodape2 h3{
+    text-align: end;
+}
+
+/* parte de formmulario */
+
+#email a{
+    margin-top: 10px;
+    color: #910000;
+}
