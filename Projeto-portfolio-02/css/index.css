@@ -47,45 +47,51 @@ nav a:active{
 
 /* parte do conteudo */
 
-article{
+#principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     color: #fff;
+    background-color: #060053;
+    height: 500px;
 }
+/*
+    caixa de texto.
+*/
+
 .caixaDeTexto{
-    position: relative;
-    top:200px;
-    left: 10%;
+    display: inline-block;
+    width: 370px;
+    
+    
 }
 .caixaDeTexto h1{
-    display: inline-block;
-    font-size: 40px;
-    border-bottom: 2px solid #000;
+    font-size: 30px;
+    border-bottom: 2px solid #fff;
 }
+
 .fonte{
     font-family: "Foldit", sans-serif;
     font-weight: 700;
-    color: #000000;
 }
+/*
+    minha foto
+*/
+
 #minha-foto{
-    position: absolute;
-    top: 250px;
-    left: 65%;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid #0000004f;
+    border: 7px solid #000000bb;
+    
 }
-#caixa-lateral{
-    position: absolute;
-    top: 290px;
-    left: 70%;
-    width: 200px;
-    height: 200px;
-    background-color: #0000008c;
-    border-radius: 50%;
-}
+
+/*
+    barra de divisão de conteudo
+*/
 #bar{
     
-    margin-top: 400px;
+   
     width: 100%;
     height: 60px;
     background-color: #000000b4;
