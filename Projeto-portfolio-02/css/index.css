@@ -13,10 +13,16 @@
 body{
     background-color: #060053;
 }
-/* top-bar */
+
+
+/* 
+
+top-bar 
+
+*/
 
 header{
-    background-color: #000;
+    background-color: #000000c8;
     width: 100%;
     height: 60px;
     
@@ -52,7 +58,7 @@ nav a:active{
     justify-content: space-around;
     align-items: center;
     color: #fff;
-    background-color: #060053;
+    background: url(../img/bg1.svg) #060053;
     height: 500px;
 }
 /*
@@ -82,7 +88,8 @@ nav a:active{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 7px solid #000000bb;
+    border: 2px solid #0000007e;
+    box-shadow: 10px 10px 10px #201b3792;
     
 }
 
@@ -106,6 +113,36 @@ nav a:active{
 */
 
 #meus-projetos{
-    background-color: #000000a6;
+    background: url(../img/bg2.svg) #080025;
     height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* 
+    bloco com os conhecimentos
+*/
+
+
+
+.con{
+
+    width: 170px;
+    height: 200px;
+    background: #080025d7;
+    margin-top: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #040010e8;
+    transition: transform 0.5s;
+
+}
+.con img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.con:hover{
+    transform: scale(1.2);
 }
