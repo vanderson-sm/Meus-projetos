@@ -1,26 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap");
 
-
+/* formatações gerais */
 *{
     margin: 0px;
     padding: 0px;
     font-family: "Anta", sans-serif;
 }
-.clear{
-    clear: both;
-}
+
 body{
     background-color: #060053;
 }
 
-
-/* 
-
-top-bar 
-
-*/
-
+/* Barra superior */
 header{
     background-color: #000000c8;
     width: 100%;
@@ -35,6 +27,7 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+
 nav a{
     text-decoration: none;
     color: #fff;
@@ -42,18 +35,17 @@ nav a{
     font-weight: bold;
     transition: font-size 0.3s;
 }
+
 nav a:hover{
     font-size: 30px;
 }
+
 nav a:active{
     font-size: 25px;
 }
 
-
-
 /* parte do conteudo */
-
-#principal{
+#apresentacao{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -61,10 +53,8 @@ nav a:active{
     background: url(../img/bg1.svg) #060053;
     height: 500px;
 }
-/*
-    caixa de texto.
-*/
 
+/* caixa de texto */
 .caixaDeTexto{
     display: inline-block;
     width: 370px;
@@ -80,10 +70,8 @@ nav a:active{
     font-family: "Foldit", sans-serif;
     font-weight: 700;
 }
-/*
-    minha foto
-*/
 
+/* minha foto */
 #minha-foto{
     width: 200px;
     height: 200px;
@@ -93,12 +81,8 @@ nav a:active{
     
 }
 
-/*
-    barra de divisão de conteudo
-*/
-#bar{
-    
-   
+/* Barra para dividir a apresentação dos conhecimentos */
+section{
     width: 100%;
     height: 60px;
     background-color: #000000b4;
@@ -108,25 +92,16 @@ nav a:active{
     border-bottom: 4px solid #0000005b;
 }
 
-/*
-    Area de conhecimentos
-*/
-
-#meus-projetos{
+/* Area de conhecimentos */
+#meus-conhecimetos{
     background: url(../img/bg2.svg) #080025;
     height: 600px;
     display: flex;
     justify-content: space-around;
 }
 
-
-/* 
-    bloco com os conhecimentos
-*/
-
-
-
-.con{
+/* bloco com os conhecimentos */
+.conhecimentos{
 
     width: 170px;
     height: 200px;
@@ -139,13 +114,13 @@ nav a:active{
     transition: transform 0.5s;
 
 }
-.con img{
+.conhecimentos img{
     width: 50px;
     height: 50px;
     margin-top: 10px;
     border-bottom: 2px solid #060053;
     padding-bottom: 10px;
 }
-.con:hover{
+.conhecimentos:hover{
     transform: scale(1.2);
 }
